@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px){
+	.header{
+		height: 50px;
+		background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7));
+	}
+	.header-images{
+		height: 50px;
+		float: none;
+	}
+	.header-images .brand-image{
+		height: 30px;
+		width: 140px;
+		padding: 10px 20px;
+	}
+	.menu{
+		float: none;
+	}
+	.menu ul li{
+		display: block;
+		background: rgba(28,28,28,.96);
+		padding: 2px;
+		text-align: center;
+	}
+	.menu ul li:hover{
+		background: #2a2a2a;
+	}
+	.menu ul{
+		margin: 0px;
+	}
+	.wrap-container{
+		width: 90%;
+	}
+	.menu-btn{
+		display: block;
+	}
+	.menu{
+		display: none;
+	}
+	.wraper-content h1{
+		font-size: 30px;
+	}
+	.learn-btn{
+		padding: 4px 25px;
+		font-size: 16px;
+	}
+	.div-box{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.service-container{
+		box-shadow: none;
+		width: 100%;
+		position: static;
+	}
+	.about-us p{
+		line-height: 1.8;
+		font-size: 14px;
+	}
+	.contact-us h1{
+		margin-bottom: 0px;
+	}
+	.contact-us .contact-image{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.contact-us .contact-image img{
+		width: 50%;
+		height: 180px;
+	}
+	.contact-us .contact-form{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.contact-form input{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.contact-form .subject{
+		width: 100%;
+	}
+	.contact-form textarea{
+		width: 100%;
+		height: 100px;
+	}
+	.contact-form .submit{
+		width: 80%;
+	}
+	.footer .widgets{
+		width: 100%;
+		min-height: auto;
+		padding:2.5 0px;
+		float: none;
+	}
+	.footer .subscribe-text{
+		width: 95%;
+	}
+	.footer .main-footer p{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.wraper-content h1{
+		font-size: 26px;
+	}
+	.wrapper-content{
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+	.about-us p{
+		line-height: 1.5;
+		font-size: 10px;
+	}
+}
